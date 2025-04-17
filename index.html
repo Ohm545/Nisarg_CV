@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nisarg Patel - CV</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #e6f0fa;
+      color: #333;
+    }
+
+    nav {
+      background-color: #004080;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 10px 0;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #cce0ff;
+    }
+
+    .section {
+      max-width: 900px;
+      margin: auto;
+      padding: 100px 20px 60px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #003366;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: #004080;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #cce0ff;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 50px;
+    }
+
+    @media screen and (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+      }
+
+      nav ul li {
+        margin: 8px 0;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#profile">Profile</a></li>
+      <li><a href="#education">Education & Skills</a></li>
+      <li><a href="#hobbies">Hobbies & Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="section" id="profile">
+    <h1>Nisarg Patel</h1>
+    <h2>Profile</h2>
+    <p><strong>Age:</strong> 19</p>
+    <p><strong>Schooling:</strong> GPS Atladara</p>
+  </section>
+
+  <section class="section" id="education">
+    <h2>Education</h2>
+    <p><strong>Branch:</strong> Information Technology</p>
+    <p><strong>Roll No:</strong> IT 104</p>
+    <p><strong>University:</strong> Dharmsinh Desai University, Nadiad</p>
+
+    <h2>Skills</h2>
+    <ul>
+      <li>Problem Solving</li>
+      <li>Object Oriented Programming</li>
+    </ul>
+  </section>
+
+  <section class="section" id="hobbies">
+    <h2>Hobbies</h2>
+    <ul>
+      <li>Playing Piano</li>
+      <li>Watching Documentaries</li>
+    </ul>
+
+    <footer>
+      <h2>Contact</h2>
+      <p><strong>Email:</strong> nisargpatel510@gmail.com</p>
+      <p><strong>Phone:</strong> 9427944293</p>
+    </footer>
+  </section>
+
+</body>
+</html>
